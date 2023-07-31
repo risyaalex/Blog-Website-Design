@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Autor -->
+    <meta name="author" content="Oleksandra Antonova" />
+    <!-- Title -->
+    <title>Alex's Blog</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- js -->
+    <script src="js/script.js"></script>
+    <!-- Menu icon -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/0d3c8bc53e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar">
+        <ul id="menu">
+          <li class="navbar-logo">Alex's Blog</li>
+          <li class="navbar-toggle">
+            <span class="material-symbols-outlined"> menu </span>
+          </li>
+          <li class="navbar-menu"><a href="#">Home</a></li>
+          <li class="navbar-menu"><a href="#blog">Blog</a></li>
+          <li class="navbar-menu"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main -->
+    <main>
+      <article>
+        <h1>Welcome to my personal travel blog!</h1>
+        <!-- Introduction section-->
+        <section id="introduction" class="margin-top">
+          <div class="parallax-img"></div>
+          <div class="introduction">
+            <h2>Welcome to <b>Alex's Blog</b></h2>
+            <p>
+              Welcome to my personal travel blog! Here, I invite you to embark
+              on a virtual journey with me as I explore the world's captivating
+              destinations. I'll be sharing my adventures, insights, and travel
+              tips that will inspire your wanderlust.
+            </p>
+          </div>
+        </section>
+        <!-- Blog section -->
+        <section id="blog" class="text">
+          <h3>Latest posts</h3>
+          <div class="text-grid">
+            <div class="blog-col">
+              <div class="blog-img grayscale">
+                <a href="blog/torontoislands.html"
+                  ><img
+                    src="images/torontoislands/toronto.jpg"
+                    alt="Toronto islands"
+                    title="Toronto islands"
+                /></a>
+              </div>
+              <div class="blog-content">
+                <h2>Exploring the Serenity of Toronto Islands</h2>
+                <p>
+                  In this post, I want to share my unforgettable experience on
+                  the Toronto Islands. Nestled just a short ferry ride away from
+                  downtown Toronto, these islands offer an escape from the
+                  hustle and bustle of the city.
+                </p>
+                <p>
+                  <a href="blog/torontoislands.html" class="button"
+                    >Read more</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="blog-col">
+              <div class="blog-img grayscale">
+                <a href="blog/barcelona.html"
+                  ><img
+                    src="images/barcelona/barcelona10.jpg"
+                    alt="Barcelona"
+                    title="Barcelona"
+                /></a>
+              </div>
+              <div class="blog-content">
+                <h2>Exploring sun-drenched Barcelona</h2>
+                <p>
+                  Barcelona, the vibrant and culturally rich city, had always
+                  been on my travel bucket list. The allure of its stunning
+                  architecture, golden beaches, and lively atmosphere was simply
+                  irresistible. Finally, the day arrived when I embarked on a
+                  journey to the wonderful city of Barcelona, Spain.
+                </p>
+                <p>
+                  <a href="blog/barcelona.html" class="button">Read more</a>
+                </p>
+              </div>
+            </div>
+            <div class="blog-col">
+              <div class="blog-img grayscale">
+                <a href="blog/praha.html"
+                  ><img src="images/praha/praha.jpg" alt="Praha" title="Praha"
+                /></a>
+              </div>
+              <div class="blog-content">
+                <h2>
+                  Embracing the Magic of Prague: A Journey Through Time and
+                  Beauty
+                </h2>
+                <p>
+                  Embark on a journey of wonder and enchantment as we delve into
+                  the captivating story of my unforgettable trip to Prague.
+                  Nestled amidst the heart of Europe, Prague, with its timeless
+                  beauty, historical splendor, and rich cultural heritage,
+                  promised an adventure like no other.
+                </p>
+                <p>
+                  <a href="blog/praha.html" class="button">Read more</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Contect section -->
+        <section id="contact" class="text">
+          <h3>Contact me</h3>
+          <div class="feedback">
+            <div class="feedback-col">
+              <form class="feedback-form">
+                <label for="name">Name*:</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Email*:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="message">Message*:</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+
+                <button
+                  class="button"
+                  type="submit"
+                  formmethod="post"
+                  formaction="https://httpbin.org/post"
+                >
+                  Submit
+                </button>
+                <button class="button-reset" type="reset">Reset</button>
+              </form>
+            </div>
+            <div class="feedback-col">
+              <div class="autor-image">
+                <p>
+                  <img
+                    class="autor"
+                    src="images/autor.jpg"
+                    alt="Oleksndra Antonova"
+                    title="Oleksndra Antonova"
+                  />
+                </p>
+              </div>
+              <p>
+                If you want to get in touch with the author of this blog, that's
+                me, Oleksandra Antonova.
+              </p>
+              <p>
+                There are several ways to contact me. You can reach out via
+                email at
+                <a href="mailto:werba2010@gmail.com">werba2010@gmail.com</a>,
+                where I am responsive to inquiries and feedback related to my
+                blog posts.
+              </p>
+              <p>
+                Additionally, you can follow me on social media platforms such
+                as
+                <a
+                  href="https://www.facebook.com/antonova.aleksa/"
+                  target="_blank"
+                  >Facebook</a
+                >
+                and
+                <a
+                  href="https://www.linkedin.com/in/oleksandra-antonova-683017268/"
+                  target="_blank"
+                  >Linkedin</a
+                >
+                to stay updated on my latest blog entries and engage in
+                conversations.
+              </p>
+              <p>
+                Feel free to leave comments on my blog posts as I value the
+                input and thoughts of my readers.
+              </p>
+              <p>
+                Connecting with me is an excellent opportunity to share your
+                appreciation for my writing or discuss any questions you may
+                have about the content I share on my blog.
+              </p>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <!-- Button to Top -->
+      <p class="top-button"><a class="top" href="#">Back to Top</a></p>
+      <!-- Social media -->
+      <div class="footer-icons">
+        <p>
+          <a
+            href="https://www.linkedin.com/in/oleksandra-antonova-683017268/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin fa-2xl" style="color: #ff4500"></i
+          ></a>
+          <a href="https://www.facebook.com/antonova.aleksa/" target="_blank"
+            ><i
+              class="fa-brands fa-square-facebook fa-2xl"
+              style="color: #ff4500"
+            ></i
+          ></a>
+          <a href="https://github.com/risyaalex/" target="_blank"
+            ><i
+              class="fa-brands fa-square-github fa-2xl"
+              style="color: #ff4500"
+            ></i
+          ></a>
+        </p>
+      </div>
+      <!-- Copyright -->
+      <p>
+        <script>
+          document.write(
+            '<p class="alg-c copy">All rights reserved &copy; ' +
+              new Date().getFullYear() +
+              " Oleksandra Antonova</p>"
+          );
+        </script>
+      </p>
+    </footer>
+  </body>
+</html>
