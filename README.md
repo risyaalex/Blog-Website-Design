@@ -21,6 +21,11 @@ The website adapts seamlessly to various devices and screen sizes, guaranteeing 
 ![image](https://github.com/risyaalex/Travel-Blog/assets/140414559/c038d978-15d3-46db-933d-365521611b10)
 ![image](https://github.com/risyaalex/Travel-Blog/assets/140414559/62a4278e-9c0b-4b41-9afe-973f65f50652)
 
+## License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as per the license terms.
+
+Enjoy reading and exploring the world through this personal travel blog! 🌍✈️
+
 ## Contact
 Oleksandra Antonova - werba2010@gmail.com
 
