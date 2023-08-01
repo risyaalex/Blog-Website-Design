@@ -5,7 +5,7 @@ This is a personal travel blog project built with HTML, CSS, and JavaScript. It 
 
 ## Demo
 
-Project Link: [http://127.0.0.1:5500/Blog-Website-Design/](http://127.0.0.1:5500/Blog-Website-Design/)
+Project Link: [https://stupendous-kashata-9e426a.netlify.app/](https://stupendous-kashata-9e426a.netlify.app/)
 
 ## Built with
 
