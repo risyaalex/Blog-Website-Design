@@ -226,7 +226,6 @@ article h1 {
     margin: 20px;
     flex-basis: 250px;
     flex-grow: 1;
-
 }
 
 .autor {
@@ -549,6 +548,10 @@ footer {
     .blog-img img {
         width: 100%;
         height: fit-content;
+    }
+
+    .order {
+        order: -1;
     }
 
     footer {
